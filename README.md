@@ -1,2 +1,2 @@
 # Project_Extranet
-création du porjet d'extranet pour BeCentral
+création du projet d'extranet pour BeCentral
