@@ -4,7 +4,7 @@
 - Décrire le public cible
 - Quel est le but du site?
 - Quelles sont les valeurs à transmettre et comment les retranscrire dans le site?
-- Décrire le style du site (exemple existants?)
+- Décrire le style du site (exemples existants?)
 - Quelles sont les qualités/ fonctionnalités que vous retrouvez chez les concurrents que vous aimeriez avoir?
 - Hébergeur du site? identifiants, accès?
 - Qui seront les partenaires impliqués dans le développement?
