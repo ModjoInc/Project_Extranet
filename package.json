@@ -1,23 +1,12 @@
 {
-  "name": "extranet-becentral",
+  "name": "project_extranet",
   "version": "1.0.0",
-  "description": "création du projet d'extranet pour BeCentral",
-  "main": "index.php",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ModjoInc/Project_Extranet.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ModjoInc/Project_Extranet/issues"
-  },
-  "homepage": "https://github.com/ModjoInc/Project_Extranet#readme",
+  "description": "extranet at BeCEntrat",
+  "main": "index.js",
+  "repository": "https://github.com/ModjoInc/Project_Extranet.git",
+  "author": "ModjoInc <habibem@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "jquery": "^3.2.1"
+    "bootstrap-datepicker": "^1.7.1"
   }
 }

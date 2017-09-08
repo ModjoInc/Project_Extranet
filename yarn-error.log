@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/bin/nodejs /usr/share/yarn/bin/yarn.js add https://yarn.pm/bootstrap-datepicker
+
+PATH: 
+  /home/user/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.0.1
+
+Node version: 
+  4.2.6
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "project_extranet",
+    "version": "1.0.0",
+    "description": "extranet at BeCEntrat",
+    "main": "index.js",
+    "repository": "https://github.com/ModjoInc/Project_Extranet.git",
+    "author": "ModjoInc <habibem@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://yarn.pm/bootstrap-datepicker: Invalid tar header. Maybe the tar is corrupted or it needs to be gunzipped?
+      at Object.module.exports.stream.default.stream.on.opts.default.proc.on.opts.default.proc.on.queue.push.obj.default.obj.default.obj.getTopologicalManifests.seedPatterns.getLevelOrderManifests.lines.map.files.filter.obj.setOptions.opts.request.params.execute.exports.show.exports.decode (/usr/share/yarn/lib/cli.js:69545:43)
+      at onheader (/usr/share/yarn/lib/cli.js:128768:39)
+      at module.exports.stream.default.stream.on.opts.default.proc.on.opts.default.proc.on.queue.push.obj.default.obj.default.obj.getTopologicalManifests.seedPatterns.getLevelOrderManifests.lines.map.files.filter.obj.setOptions.opts.request.params.execute.exports.show.options.fs.mkdir.options.fs.stat.options.fs.rmdir.lock.updateTimeout.operation.attempt.array.length.runEventuallyWithFile.default.mutexPort.default.obj.default.obj.seed.queue.getNewParts.parts.prepass.obj.default.table.widths.question.question.default.tree.trees.select.semverRange.set.some.module.exports.Extract._write (/usr/share/yarn/lib/cli.js:128891:8)
+      at doWrite (/usr/share/yarn/lib/cli.js:66208:64)
+      at writeOrBuffer (/usr/share/yarn/lib/cli.js:66197:5)
+      at module.exports.stream.default.stream.on.opts.default.proc.on.opts.default.proc.on.queue.push.obj.default.obj.default.obj.getTopologicalManifests.seedPatterns.getLevelOrderManifests.lines.map.files.filter.obj.setOptions.opts.request.params.execute.exports.show.Writable.write (/usr/share/yarn/lib/cli.js:66134:11)
+      at ondata (/usr/share/yarn/lib/cli.js:65282:20)
+      at emitOne (events.js:77:13)
+      at emit (events.js:169:7)
+      at readableAddChunk (/usr/share/yarn/lib/cli.js:64953:18)
