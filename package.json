@@ -1,0 +1,12 @@
+{
+  "name": "project_extranet",
+  "version": "1.0.0",
+  "description": "extranet at BeCEntrat",
+  "main": "index.js",
+  "repository": "https://github.com/ModjoInc/Project_Extranet.git",
+  "author": "ModjoInc <habibem@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-datepicker": "^1.7.1"
+  }
+}
