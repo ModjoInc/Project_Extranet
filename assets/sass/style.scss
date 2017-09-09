@@ -1,0 +1,93 @@
+header {
+	position: absolute;
+	width: 100%;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+
+	&>.container {
+		border-bottom: 1px solid #fff;
+	}
+
+	.navbar-brand,
+	.navbar-nav>li>a {
+		color: #fff;
+	}
+
+}
+
+
+
+.cover {
+	height: 100vh;
+	position: relative;
+
+	.cover__media {
+		width: 100%;
+		height: 100%;
+		background: url('../images/salle_3_big.jpg') center center no-repeat;
+		background-size: cover;
+		filter: blur(1px);
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-image: radial-gradient(ellipse, #000, transparent 53%);
+			opacity: .6;
+		}
+	}
+
+	.cover__content {
+		position: absolute;
+		top: 45%;
+		left:50%;
+		transform: translate(-50%, -50%);
+		color: #fff;
+		text-align: center;
+		filter: none;
+		text-shadow: 1px 1px 1px #fff;
+	}
+
+	.scrool-down {
+		position: absolute;
+		top: 76%;
+		left:50%;
+		transform: translate(-50%, -50%);
+		border: 1px solid #fff;
+		border-radius: 50%;
+		padding: 0.5em 0.7em;
+
+		a {
+			color: #fff;
+		}
+	}
+}
+
+footer {
+	border-top: 1px solid #000;
+
+	.container {
+		padding-top: 15px;
+	}
+
+	.social-links, 
+	.navbar__footer {
+		li {
+			display: inline;
+			a {
+				color: inherit;
+			}
+		}
+	}
+
+	.navbar__footer {
+		text-align: right;
+	}
+}
+
