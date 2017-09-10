@@ -7,9 +7,9 @@
 		<?php foreach ($rooms as $key => $value) { ?>
 				<div class="col-sm-6 col-md-4">
 					<div class="thumbnail">
-				      <img src="holder.js/350x250" alt="...">
+				      <a href="?template=salle"><img src="holder.js/350x250" alt="..."></a>
 				      <div class="caption">
-				        <h3>Salle</h3>
+				        <h3><a href="?template=salle">Salle</a></h3>
 				        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum illo eligendi voluptatem recusandae sit aliquid eos, vel, molestiae aut.</p>
 				      </div>
 				    </div>

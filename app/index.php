@@ -10,7 +10,14 @@
 <body>
 	<?php include 'parts/header.php'; ?>
 	<div class="container-fluid">
-		<?php include 'home.php'; ?>
+		<?php 
+		if(isset($_GET['template']) && $_GET['template'] == "salle") {
+			include 'salle.php';
+		} else {
+			include 'home.php';
+		}
+			
+		?>
 	</div>
 	<?php include 'parts/footer.php'; ?>
 	<script src="../node_modules/jquery/dist/jquery.min.js"></script>

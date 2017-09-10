@@ -1,22 +1,27 @@
 header {
-	position: absolute;
-	width: 100%;
+	
+	&.home {
+		position: absolute;
+		width: 100%;
+
+		.navbar-default {
+			background-color: transparent;
+			border-color: transparent;
+
+			&>.container {
+				border-bottom: 1px solid #fff;
+			}
+
+			.navbar-brand,
+			.navbar-nav>li>a {
+				color: #fff;
+			}
+
+		}
+	}
 }
 
-.navbar-default {
-	background-color: transparent;
-	border-color: transparent;
 
-	&>.container {
-		border-bottom: 1px solid #fff;
-	}
-
-	.navbar-brand,
-	.navbar-nav>li>a {
-		color: #fff;
-	}
-
-}
 
 
 
@@ -50,8 +55,6 @@ header {
 		transform: translate(-50%, -50%);
 		color: #fff;
 		text-align: center;
-		filter: none;
-		text-shadow: 1px 1px 1px #fff;
 	}
 
 	.scrool-down {
@@ -89,5 +92,45 @@ footer {
 	.navbar__footer {
 		text-align: right;
 	}
+}
+
+
+.gallery {
+	.gallery__secondary > .col-xs-4 {
+		padding: 0;
+	}
+
+	&:after {
+		content: '';
+		display: block;
+		clear:both;
+	}
+}
+
+.description {
+	.description__features {
+		padding-bottom: 15px;
+		border-bottom: 1px solid #000;
+
+		&:after {
+			content: '';
+			display: block;
+			clear:both;
+		}
+	}
+	.description__features__item {
+		text-align: center;
+		
+		i,span {
+			display: block;
+		}
+	}
+
+	.description__action {
+		text-align: center;
+		padding: 15px 0;
+	}
+
+
 }
 

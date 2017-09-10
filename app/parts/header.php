@@ -1,4 +1,4 @@
-<header>
+<header class="<?php echo ( !isset($_GET['template']) )?'home':''; ?>">
 	<nav class="navbar navbar-default navbar-static-top">
 	  <div class="container">
 	    <!-- Brand and toggle get grouped for better mobile display -->

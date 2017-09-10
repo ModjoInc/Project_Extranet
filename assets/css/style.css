@@ -1,15 +1,14 @@
-header {
+header.home {
   position: absolute;
   width: 100%; }
-
-.navbar-default {
-  background-color: transparent;
-  border-color: transparent; }
-  .navbar-default > .container {
-    border-bottom: 1px solid #fff; }
-  .navbar-default .navbar-brand,
-  .navbar-default .navbar-nav > li > a {
-    color: #fff; }
+  header.home .navbar-default {
+    background-color: transparent;
+    border-color: transparent; }
+    header.home .navbar-default > .container {
+      border-bottom: 1px solid #fff; }
+    header.home .navbar-default .navbar-brand,
+    header.home .navbar-default .navbar-nav > li > a {
+      color: #fff; }
 
 .cover {
   height: 100vh;
@@ -35,9 +34,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    text-align: center;
-    filter: none;
-    text-shadow: 1px 1px 1px #fff; }
+    text-align: center; }
   .cover .scrool-down {
     position: absolute;
     top: 76%;
@@ -61,5 +58,30 @@ footer {
       color: inherit; }
   footer .navbar__footer {
     text-align: right; }
+
+.gallery .gallery__secondary > .col-xs-4 {
+  padding: 0; }
+
+.gallery:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.description .description__features {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #000; }
+  .description .description__features:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+.description .description__features__item {
+  text-align: center; }
+  .description .description__features__item i, .description .description__features__item span {
+    display: block; }
+
+.description .description__action {
+  text-align: center;
+  padding: 15px 0; }
 
 /*# sourceMappingURL=maps/style.css.map */
